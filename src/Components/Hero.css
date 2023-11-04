@@ -1,0 +1,22 @@
+.hero{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 3rem;
+}
+@media screen and (max-width: 780px) {
+       .hero{
+           flex-direction: column;
+           flex-direction: column-reverse;
+           width: 100%;
+           padding: 1rem;
+           gap: 40px;
+       }
+    .hero div:first-child{
+           width: 100%;
+           text-align: center;
+    }
+       .hero img{
+             height: 250px;
+       }
+}
